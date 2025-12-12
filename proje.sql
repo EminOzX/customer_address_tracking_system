@@ -27,7 +27,7 @@ GO
 create table customers (
     customer_id INT IDENTITY(1,1) primary key,
     user_id INT NOT NULL,
-    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 GO
 
@@ -115,7 +115,7 @@ GO
 
 create table vendors (
     vendor_id INT IDENTITY(1,1) primary key,
-    vendor_name nvarchar(50),
+    vendor_name nvarchar(50)
 );
 GO
 /*
