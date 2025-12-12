@@ -12,7 +12,7 @@ GO
 
 create table users (
     user_id INT IDENTITY(1,1) primary key,
-    first_name nnvarchar(50) NOT NULL,
+    first_name nvarchar(50) NOT NULL,
     last_name nvarchar(50) NOT NULL,
     role_id INT NOT NULL,
     created_at nvarchar(30),
