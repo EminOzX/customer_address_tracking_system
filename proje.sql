@@ -6,7 +6,7 @@ GO
 
 create table roles (
     role_id INT IDENTITY(1,1) primary key,
-    role_name nnvarchar(50)
+    role_name nvarchar(50)
 );
 GO
 
@@ -33,13 +33,13 @@ GO
 
 create table cities (
     city_id INT IDENTITY(1,1) primary key,
-    city_name nnvarchar(50)
+    city_name nvarchar(50)
 );
 GO
 
 create table districts (
     district_id INT IDENTITY(1,1) primary key,
-    district_name nnvarchar(50),
+    district_name nvarchar(50),
     city_id INT,
     FOREIGN KEY (city_id) REFERENCES cities(city_id)
 );
@@ -48,10 +48,10 @@ GO
 create table address (
     address_id INT IDENTITY(1,1) primary key,
     customer_id INT,
-    address_type Nnvarchar(20),
-    city_id nnvarchar(50),
+    address_type nvarchar(20),
+    city_id nvarchar(50),
     district_id INT,
-    address_description nnvarchar(255),
+    address_description nvarchar(255),
     building_no INT,
     apartment_no INT,
     postal_code INT,
@@ -143,7 +143,7 @@ create table sales_logs (
     quantity INT,
     unit_price DECIMAL(10, 2),
     total_price DECIMAL(10, 2),
-    created_at DATETIME2 NOT NULL DEFAULT SYSDATETIME(),
+    created_at varchar(50),
     FOREIGN KEY (order_id) REFERENCES orders(order_id),
     FOREIGN KEY (product_id) REFERENCES products(product_id),   
     FOREIGN KEY (user_id) REFERENCES users(user_id),
