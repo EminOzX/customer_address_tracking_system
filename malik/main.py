@@ -367,15 +367,15 @@ class Controller:
         if row:
             role_id = row.role_id
             if role_id == 1:
-                self.show_customer()
+                self.show_customer() 
             elif role_id == 2:
-                self.show_customer()
+                self.show_customer() #customer representive
             elif role_id == 3:
-                self.show_customer()
+                self.show_customer() #kurye
             elif role_id == 4:
-                self.show_customer()
+                self.show_customer() #dba
             elif role_id == 5:
-                self.show_customer()
+                self.show_customer() #admin
         else:
             self.login.ui.label_Msg.setText("Invalid credentials.")
     
