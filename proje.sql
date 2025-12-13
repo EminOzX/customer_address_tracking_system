@@ -52,8 +52,6 @@ create table address (
     city_id nvarchar(50),
     district_id INT,
     address_description nvarchar(255),
-    building_no INT,
-    apartment_no INT,
     postal_code INT,
     -- isdefault,
     -- created_at
