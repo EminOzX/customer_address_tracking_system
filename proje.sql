@@ -101,7 +101,7 @@ create table orders (
     order_id INT IDENTITY(1,1) primary key,
     customer_id INT,
     address_id INT,
-    vendor_id INT,
+    product_id INT,
     order_status nvarchar(20),
     --payment_method nvarchar(20),  
     quantity INT,
@@ -109,7 +109,7 @@ create table orders (
     created_at nvarchar(50),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
     FOREIGN KEY (address_id) REFERENCES address(address_id),
-    FOREIGN KEY (vendor_id) REFERENCES vendors(vendor_id)
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
 GO
 
@@ -169,7 +169,7 @@ create table messages (
     message_id INT IDENTITY(1,1) primary key,
     customer_id INT,
     complain_topic nvarchar(50),
-    feedback nvarchar(50),
+    message nvarchar(50),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 GO
