@@ -252,7 +252,7 @@ border-color: rgb(90, 88, 96);</string>
      <rect>
       <x>680</x>
       <y>40</y>
-      <width>421</width>
+      <width>431</width>
       <height>261</height>
      </rect>
     </property>
@@ -261,7 +261,7 @@ border-color: rgb(90, 88, 96);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="plainText">
-     <string>ıjlknl
+     <string>
 </string>
     </property>
    </widget>
@@ -291,7 +291,7 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>680</x>
       <y>350</y>
-      <width>421</width>
+      <width>431</width>
       <height>261</height>
      </rect>
     </property>
@@ -327,15 +327,15 @@ color: rgb(255, 255, 255);</string>
    <widget class="QPushButton" name="btn_sendFeedback">
     <property name="geometry">
      <rect>
-      <x>780</x>
+      <x>690</x>
       <y>620</y>
-      <width>211</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -367,21 +367,32 @@ border-color: rgb(90, 88, 96);</string>
      <string>Customer Complaints Table: </string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QPushButton" name="btn_banRequest">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>10</y>
-      <width>55</width>
-      <height>16</height>
+      <x>900</x>
+      <y>620</y>
+      <width>201</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(90, 88, 96);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Send Ban Request to Admin</string>
     </property>
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

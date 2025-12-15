@@ -20,8 +20,8 @@ class Ui_customerRepresentative(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tbl_customer = QtWidgets.QTableWidget(self.centralwidget)
-
-        self.tbl_customer.setGeometry(QtCore.QRect(10, 40, 651, 611))
+        self.tbl_customer.setEnabled(False)
+        self.tbl_customer.setGeometry(QtCore.QRect(10, 90, 651, 561))
         self.tbl_customer.setMouseTracking(False)
         self.tbl_customer.setStyleSheet("background-color: rgb(94, 92, 100);\n"
 "color: rgb(0,0,0);\n"
@@ -111,14 +111,12 @@ class Ui_customerRepresentative(object):
         self.tbl_customer.setItem(5, 3, item)
         item = QtWidgets.QTableWidgetItem()
         self.tbl_customer.setItem(5, 4, item)
-
         self.txt_viewComplaint = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.txt_viewComplaint.setEnabled(False)
-        self.txt_viewComplaint.setGeometry(QtCore.QRect(680, 40, 421, 261))
+        self.txt_viewComplaint.setGeometry(QtCore.QRect(680, 40, 431, 261))
         self.txt_viewComplaint.setStyleSheet("border-color: rgb(90, 88, 96);\n"
 "color: rgb(255, 255, 255);")
         self.txt_viewComplaint.setObjectName("txt_viewComplaint")
-
         self.lbl_viewComplaint = QtWidgets.QLabel(self.centralwidget)
         self.lbl_viewComplaint.setGeometry(QtCore.QRect(680, 20, 141, 20))
         font = QtGui.QFont()
@@ -127,7 +125,7 @@ class Ui_customerRepresentative(object):
         self.lbl_viewComplaint.setStyleSheet("color: rgb(255, 255, 255);")
         self.lbl_viewComplaint.setObjectName("lbl_viewComplaint")
         self.txt_writeFeedback = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.txt_writeFeedback.setGeometry(QtCore.QRect(680, 350, 421, 261))
+        self.txt_writeFeedback.setGeometry(QtCore.QRect(680, 350, 431, 261))
         self.txt_writeFeedback.setTabletTracking(False)
         self.txt_writeFeedback.setStyleSheet("border-color: rgb(90, 88, 96);\n"
 "color: rgb(255, 255, 255);")
@@ -140,20 +138,28 @@ class Ui_customerRepresentative(object):
         self.lbl_feedback.setStyleSheet("color: rgb(255, 255, 255);")
         self.lbl_feedback.setObjectName("lbl_feedback")
         self.btn_sendFeedback = QtWidgets.QPushButton(self.centralwidget)
-        self.btn_sendFeedback.setGeometry(QtCore.QRect(780, 620, 211, 31))
+        self.btn_sendFeedback.setGeometry(QtCore.QRect(690, 620, 191, 31))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         self.btn_sendFeedback.setFont(font)
         self.btn_sendFeedback.setStyleSheet("color: rgb(255, 255, 255);\n"
 "border-color: rgb(90, 88, 96);")
         self.btn_sendFeedback.setObjectName("btn_sendFeedback")
         self.lbl_feedback_2 = QtWidgets.QLabel(self.centralwidget)
-        self.lbl_feedback_2.setGeometry(QtCore.QRect(20, 20, 261, 16))
+        self.lbl_feedback_2.setGeometry(QtCore.QRect(160, 60, 261, 16))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.lbl_feedback_2.setFont(font)
         self.lbl_feedback_2.setStyleSheet("color: rgb(255, 255, 255);")
         self.lbl_feedback_2.setObjectName("lbl_feedback_2")
+        self.btn_banRequest = QtWidgets.QPushButton(self.centralwidget)
+        self.btn_banRequest.setGeometry(QtCore.QRect(900, 620, 201, 31))
+        font = QtGui.QFont()
+        font.setPointSize(9)
+        self.btn_banRequest.setFont(font)
+        self.btn_banRequest.setStyleSheet("color: rgb(255, 255, 255);\n"
+"border-color: rgb(90, 88, 96);")
+        self.btn_banRequest.setObjectName("btn_banRequest")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -247,8 +253,10 @@ class Ui_customerRepresentative(object):
         item = self.tbl_customer.item(5, 4)
         item.setText(_translate("MainWindow", "jtrzhtarz"))
         self.tbl_customer.setSortingEnabled(__sortingEnabled)
-        
+        self.txt_viewComplaint.setPlainText(_translate("MainWindow", "\n"
+""))
         self.lbl_viewComplaint.setText(_translate("MainWindow", "View Complaint:"))
         self.lbl_feedback.setText(_translate("MainWindow", "Write Feedback:"))
         self.btn_sendFeedback.setText(_translate("MainWindow", "Send Feedback"))
         self.lbl_feedback_2.setText(_translate("MainWindow", "Customer Complaints Table: "))
+        self.btn_banRequest.setText(_translate("MainWindow", "Send Ban Request to Admin"))
