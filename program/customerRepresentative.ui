@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1130</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(94, 92, 100);
+border-color: rgb(92, 90, 98);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tbl_customer">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>651</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(94, 92, 100);
+color: rgb(0,0,0);
+border-color: rgb(90, 88, 96);</string>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Surname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Phone Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Complaints</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>fdg</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>hgsf</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>hjhg</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>gsfasd</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>fsgdbfgyıuftcgjlıhugıyvjhbjlhgvgj bbkgıvgj bhıhvj nnhoıbhj</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>jdıwoqehf</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>ghfjkdngr</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>nfekwl</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>kfwopepq</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>nresrf</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>erhzye</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>yrae</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>jyusr</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>twE</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>TWtW4T</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>T4</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>y5ea5</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>y5q35aewt</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>y5eatyq5</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>stjhgdk</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>jdfzö</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>jöjjthdfz</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>hrse&lt;ghnsh</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>hwestgdhate</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>jyrertzghsm</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>hr&lt;eyt4ARYH</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>KLIUIHUGJV</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>G&lt;SYAJS</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>jysxftduj</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>jtrzhtarz</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="txt_viewComplaint">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>40</y>
+      <width>431</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(90, 88, 96);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="plainText">
+     <string>
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_viewComplaint">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>View Complaint:</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txt_writeFeedback">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>350</y>
+      <width>431</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(90, 88, 96);
+color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_feedback">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>330</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Write Feedback:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sendFeedback">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>620</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(90, 88, 96);</string>
+    </property>
+    <property name="text">
+     <string>Send Feedback</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_feedback_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>261</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Customer Complaints Table: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_banRequest">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>620</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(90, 88, 96);</string>
+    </property>
+    <property name="text">
+     <string>Send Ban Request to Admin</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
